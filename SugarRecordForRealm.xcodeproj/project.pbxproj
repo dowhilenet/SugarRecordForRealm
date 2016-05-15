@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABDDAE101CE9397A00467408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAE0F1CE9397A00467408 /* AppDelegate.swift */; };
+		ABDDAE121CE9397A00467408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAE111CE9397A00467408 /* ViewController.swift */; };
+		ABDDAE151CE9397A00467408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDDAE131CE9397A00467408 /* Main.storyboard */; };
+		ABDDAE171CE9397A00467408 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDDAE161CE9397A00467408 /* Assets.xcassets */; };
+		ABDDAE1A1CE9397A00467408 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDDAE181CE9397A00467408 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABDDAE0C1CE9397A00467408 /* SugarRecordForRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugarRecordForRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDDAE0F1CE9397A00467408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABDDAE111CE9397A00467408 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABDDAE141CE9397A00467408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABDDAE161CE9397A00467408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDDAE191CE9397A00467408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABDDAE1B1CE9397A00467408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDDAE091CE9397A00467408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABDDAE031CE9397A00467408 = {
+			isa = PBXGroup;
+			children = (
+				ABDDAE0E1CE9397A00467408 /* SugarRecordForRealm */,
+				ABDDAE0D1CE9397A00467408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDDAE0D1CE9397A00467408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDDAE0C1CE9397A00467408 /* SugarRecordForRealm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDDAE0E1CE9397A00467408 /* SugarRecordForRealm */ = {
+			isa = PBXGroup;
+			children = (
+				ABDDAE0F1CE9397A00467408 /* AppDelegate.swift */,
+				ABDDAE111CE9397A00467408 /* ViewController.swift */,
+				ABDDAE131CE9397A00467408 /* Main.storyboard */,
+				ABDDAE161CE9397A00467408 /* Assets.xcassets */,
+				ABDDAE181CE9397A00467408 /* LaunchScreen.storyboard */,
+				ABDDAE1B1CE9397A00467408 /* Info.plist */,
+			);
+			path = SugarRecordForRealm;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDDAE0B1CE9397A00467408 /* SugarRecordForRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDDAE1E1CE9397A00467408 /* Build configuration list for PBXNativeTarget "SugarRecordForRealm" */;
+			buildPhases = (
+				ABDDAE081CE9397A00467408 /* Sources */,
+				ABDDAE091CE9397A00467408 /* Frameworks */,
+				ABDDAE0A1CE9397A00467408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SugarRecordForRealm;
+			productName = SugarRecordForRealm;
+			productReference = ABDDAE0C1CE9397A00467408 /* SugarRecordForRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDDAE041CE9397A00467408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = xiaolei;
+				TargetAttributes = {
+					ABDDAE0B1CE9397A00467408 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ABDDAE071CE9397A00467408 /* Build configuration list for PBXProject "SugarRecordForRealm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDDAE031CE9397A00467408;
+			productRefGroup = ABDDAE0D1CE9397A00467408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDDAE0B1CE9397A00467408 /* SugarRecordForRealm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABDDAE0A1CE9397A00467408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDDAE1A1CE9397A00467408 /* LaunchScreen.storyboard in Resources */,
+				ABDDAE171CE9397A00467408 /* Assets.xcassets in Resources */,
+				ABDDAE151CE9397A00467408 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDDAE081CE9397A00467408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDDAE121CE9397A00467408 /* ViewController.swift in Sources */,
+				ABDDAE101CE9397A00467408 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABDDAE131CE9397A00467408 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDDAE141CE9397A00467408 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABDDAE181CE9397A00467408 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDDAE191CE9397A00467408 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABDDAE1C1CE9397A00467408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABDDAE1D1CE9397A00467408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDDAE1F1CE9397A00467408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SugarRecordForRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dowhile.SugarRecordForRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ABDDAE201CE9397A00467408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SugarRecordForRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.dowhile.SugarRecordForRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDDAE071CE9397A00467408 /* Build configuration list for PBXProject "SugarRecordForRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDDAE1C1CE9397A00467408 /* Debug */,
+				ABDDAE1D1CE9397A00467408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDDAE1E1CE9397A00467408 /* Build configuration list for PBXNativeTarget "SugarRecordForRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDDAE1F1CE9397A00467408 /* Debug */,
+				ABDDAE201CE9397A00467408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABDDAE041CE9397A00467408 /* Project object */;
+}
