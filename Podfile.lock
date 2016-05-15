@@ -1,0 +1,15 @@
+PODS:
+  - Result (2.0.0)
+  - SugarRecord/CoreData (2.2.7):
+    - Result (~> 2.0)
+
+DEPENDENCIES:
+  - SugarRecord/CoreData
+
+SPEC CHECKSUMS:
+  Result: 9e75e1111c774c6ac594e14907b15057053a7959
+  SugarRecord: b5f69645b38207d430ff1f4599a4b90e94e18a6a
+
+PODFILE CHECKSUM: 9d301694772262cc20588840c38dae6d25db22c4
+
+COCOAPODS: 1.0.0

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		476D379201A16E661DF43C72 /* Pods_SugarRecordForRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4301ED4471EC1B9EDDACE0 /* Pods_SugarRecordForRealm.framework */; };
 		ABDDAE101CE9397A00467408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAE0F1CE9397A00467408 /* AppDelegate.swift */; };
 		ABDDAE121CE9397A00467408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAE111CE9397A00467408 /* ViewController.swift */; };
 		ABDDAE151CE9397A00467408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDDAE131CE9397A00467408 /* Main.storyboard */; };
@@ -22,6 +23,9 @@
 		ABDDAE161CE9397A00467408 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABDDAE191CE9397A00467408 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABDDAE1B1CE9397A00467408 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3CAD1BDB7FC20FEA1B48567 /* Pods-SugarRecordForRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarRecordForRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-SugarRecordForRealm/Pods-SugarRecordForRealm.release.xcconfig"; sourceTree = "<group>"; };
+		F24AA229D7921888BA562273 /* Pods-SugarRecordForRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SugarRecordForRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SugarRecordForRealm/Pods-SugarRecordForRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4301ED4471EC1B9EDDACE0 /* Pods_SugarRecordForRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SugarRecordForRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				476D379201A16E661DF43C72 /* Pods_SugarRecordForRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				ABDDAE0E1CE9397A00467408 /* SugarRecordForRealm */,
 				ABDDAE0D1CE9397A00467408 /* Products */,
+				EF57542920040679E7779802 /* Pods */,
+				C0FC4EDF1579D06F7DDECF67 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = SugarRecordForRealm;
 			sourceTree = "<group>";
 		};
+		C0FC4EDF1579D06F7DDECF67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE4301ED4471EC1B9EDDACE0 /* Pods_SugarRecordForRealm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF57542920040679E7779802 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F24AA229D7921888BA562273 /* Pods-SugarRecordForRealm.debug.xcconfig */,
+				C3CAD1BDB7FC20FEA1B48567 /* Pods-SugarRecordForRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABDDAE1E1CE9397A00467408 /* Build configuration list for PBXNativeTarget "SugarRecordForRealm" */;
 			buildPhases = (
+				E62D2810EFA074DF325F836D /* 📦 Check Pods Manifest.lock */,
 				ABDDAE081CE9397A00467408 /* Sources */,
 				ABDDAE091CE9397A00467408 /* Frameworks */,
 				ABDDAE0A1CE9397A00467408 /* Resources */,
+				FBA53A1C783333EC61C317F6 /* 📦 Embed Pods Frameworks */,
+				0718B4DFC4B2674A226245BB /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0718B4DFC4B2674A226245BB /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecordForRealm/Pods-SugarRecordForRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E62D2810EFA074DF325F836D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA53A1C783333EC61C317F6 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SugarRecordForRealm/Pods-SugarRecordForRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ABDDAE081CE9397A00467408 /* Sources */ = {
@@ -247,9 +322,11 @@
 		};
 		ABDDAE1F1CE9397A00467408 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24AA229D7921888BA562273 /* Pods-SugarRecordForRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SugarRecordForRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.dowhile.SugarRecordForRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,9 +335,11 @@
 		};
 		ABDDAE201CE9397A00467408 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CAD1BDB7FC20FEA1B48567 /* Pods-SugarRecordForRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SugarRecordForRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.dowhile.SugarRecordForRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -286,6 +365,7 @@
 				ABDDAE201CE9397A00467408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
