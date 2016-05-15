@@ -6,5 +6,5 @@ target 'SugarRecordForRealm' do
   use_frameworks!
 
   # Pods for SugarRecordForRealm
-  pod "SugarRecord/Ream"
+  pod "SugarRecord"
 end
