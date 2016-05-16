@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		476D379201A16E661DF43C72 /* Pods_SugarRecordForRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4301ED4471EC1B9EDDACE0 /* Pods_SugarRecordForRealm.framework */; };
+		AB80C4DC1CE9AE1E00B72783 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB80C4DB1CE9AE1E00B72783 /* Dog.swift */; };
 		ABDDAE101CE9397A00467408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAE0F1CE9397A00467408 /* AppDelegate.swift */; };
 		ABDDAE121CE9397A00467408 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDDAE111CE9397A00467408 /* ViewController.swift */; };
 		ABDDAE151CE9397A00467408 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDDAE131CE9397A00467408 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB80C4DB1CE9AE1E00B72783 /* Dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 		ABDDAE0C1CE9397A00467408 /* SugarRecordForRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SugarRecordForRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDDAE0F1CE9397A00467408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABDDAE111CE9397A00467408 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				ABDDAE0F1CE9397A00467408 /* AppDelegate.swift */,
+				AB80C4DB1CE9AE1E00B72783 /* Dog.swift */,
 				ABDDAE111CE9397A00467408 /* ViewController.swift */,
 				ABDDAE131CE9397A00467408 /* Main.storyboard */,
 				ABDDAE161CE9397A00467408 /* Assets.xcassets */,
@@ -212,6 +215,7 @@
 			files = (
 				ABDDAE121CE9397A00467408 /* ViewController.swift in Sources */,
 				ABDDAE101CE9397A00467408 /* AppDelegate.swift in Sources */,
+				AB80C4DC1CE9AE1E00B72783 /* Dog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
